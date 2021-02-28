@@ -1,0 +1,59 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+
+\usepackage{cvpr}
+\usepackage{times}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% Include other packages here, before hyperref.
+
+% If you comment hyperref and then uncomment it, you should delete
+% egpaper.aux before re-running latex.  (Or just hit 'q' on the first latex
+% run, let it finish, and you should be clear).
+\usepackage[breaklinks=true,bookmarks=false]{hyperref}
+
+\cvprfinalcopy % *** Uncomment this line for the final submission
+
+\begin{document}
+	
+	%%%%%%%%% TITLE
+	\title{Proposal: Music Genre Classification}
+	
+	\author{Mark Gameng\\
+		Illinois Institute of Technology\\
+		{\tt\small mgameng1@hawk.iit.edu}
+	}
+	
+	\maketitle
+	
+	\section{Description}
+	
+	Music, throughout the years, have been skyrocketing in terms of music generation and have also resulted in new styles/genres of music. Music platforms in general are producing thousands of new songs each day, with Spotify having listed over 50 million songs and over 40 thousand new songs are added every day. Years ago, the genre of songs were classified manually by people with musical knowledge. With the amount of music generation in our current era, it is imperative that music genre classification be automated through musical analysis and machine learning. Automated music genre classification will allow platforms like Spotify, Pandora, Soundcloud to better serve its customers by having a more accurate search and recommender systems.
+	
+	\subsection{Proposal}
+	
+	Due to the amount of growth in the music industry throughout the years and the amount of data that can be extracted from an audio, interest in the field of Music Information Retrieval (MIR) has been increasing. Specifically, one popular topic that has garnered countless studies in MIR is music genre classification. As a result, there has also been many datasets containing songs with information like genre. With machine learning, computer scientists have been trying to tackle the automation of music genre classification.
+	
+	Few of the datasets that are majorly used in these type of studies are GTZAN~\cite{tzanetakis2002musical} and Extended Ballroom~\cite{marchand2016extended}. GTZAN is the most used public dataset which consists of 1000 audio clips that are 30 seconds each and are equally classified to 10 different genres. The Extended Ballroom dataset consists of 4180 audio clips that are 30 seconds each which are from 13 different ballroom genres. Other datasets to note are Free Music Archive (FMA) and Million Song which are much larger datasets with 0.1 and 1 million clips respectively.
+	
+	Currently, the best result that I know of got 92\% and 92.5\% accuracy on GTZAN and extended ballroom dataset respectively. That was done using a parallel recurrent convolutional neural network (PRCNN)~\cite{yang2020parallel}. Other notable methods are CNN~\cite{zhang2016improved}, KCNN + SVM~\cite{zhang2015deep}, and DNN~\cite{sigtia2014improved}, which got 87.4\%, 83.9\%, and 83\% respectively. Other works also used lyrics~\cite{tsaptsinos2017lyrics}, album picture either separately or in combination with audio to determine the genre~\cite{oramas2017multi}.
+	
+	I propose trying to experiment different things such as DNN, CNN, RNN, SVM, etc., on different feature extractions and seeing what works and which is best. Recently, there might also be new feature extractions and techniques that may be useful such as graph-based feature extraction~\cite{melo2020graph} and more. So, I will be trying different combinations of feature extractions as well as parallel/combinations of models to determine the genre.
+	
+	\subsection{Preliminary Plan}
+	
+		\begin{enumerate}
+			\item Decide which dataset to use. Either both GTZAN and extended ballroom dataset because they are widely used. Can also use FMA or million song dataset which have much larger sample size
+			\item Extract features from audio clips such as MFCC, mel-spectrum, SFM, STFT, etc.
+			\item Implement models and experiment with it
+			\item Look at the results and modify or optimize the models. My goal would be to get an accuracy of at least 70\%
+		\end{enumerate}
+	
+	{\small
+		\bibliographystyle{ieee_fullname}
+		\bibliography{egbib}
+	}
+	
+\end{document}
