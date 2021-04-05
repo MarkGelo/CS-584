@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}\itemsep=-1pt
+\begin{thebibliography}{10}\itemsep=-1pt
 
 \bibitem{marchand2016extended}
 Ugo Marchand and Geoffroy Peeters.
@@ -18,11 +18,23 @@ Sergio Oramas, Oriol Nieto, Francesco Barbieri, and Xavier Serra.
   using deep features.
 \newblock {\em arXiv preprint arXiv:1707.04916}, 2017.
 
+\bibitem{schuster1997bidirectional}
+Mike Schuster and Kuldip~K Paliwal.
+\newblock Bidirectional recurrent neural networks.
+\newblock {\em IEEE transactions on Signal Processing}, 45(11):2673--2681,
+  1997.
+
 \bibitem{sigtia2014improved}
 Siddharth Sigtia and Simon Dixon.
 \newblock Improved music feature learning with deep neural networks.
 \newblock In {\em 2014 IEEE international conference on acoustics, speech and
   signal processing (ICASSP)}, pages 6959--6963. IEEE, 2014.
+
+\bibitem{sturm2013gtzan}
+Bob~L Sturm.
+\newblock The gtzan dataset: Its contents, its faults, their effects on
+  evaluation, and its future use.
+\newblock {\em arXiv preprint arXiv:1306.1461}, 2013.
 
 \bibitem{tsaptsinos2017lyrics}
 Alexandros Tsaptsinos.
