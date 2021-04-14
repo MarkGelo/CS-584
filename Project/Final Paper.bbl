@@ -1,22 +1,9 @@
-\begin{thebibliography}{10}\itemsep=-1pt
+\begin{thebibliography}{1}\itemsep=-1pt
 
 \bibitem{marchand2016extended}
 Ugo Marchand and Geoffroy Peeters.
 \newblock The extended ballroom dataset.
 \newblock 2016.
-
-\bibitem{melo2020graph}
-Dirceu de Freitas~Piedade Melo, Inacio de~Sousa Fadigas, and Hernane Borges
-  de~Barros Pereira.
-\newblock Graph-based feature extraction: A new proposal to study the
-  classification of music signals outside the time-frequency domain.
-\newblock {\em Plos one}, 15(11):e0240915, 2020.
-
-\bibitem{oramas2017multi}
-Sergio Oramas, Oriol Nieto, Francesco Barbieri, and Xavier Serra.
-\newblock Multi-label music genre classification from audio, text, and images
-  using deep features.
-\newblock {\em arXiv preprint arXiv:1707.04916}, 2017.
 
 \bibitem{schuster1997bidirectional}
 Mike Schuster and Kuldip~K Paliwal.
@@ -35,12 +22,6 @@ Bob~L Sturm.
 \newblock The gtzan dataset: Its contents, its faults, their effects on
   evaluation, and its future use.
 \newblock {\em arXiv preprint arXiv:1306.1461}, 2013.
-
-\bibitem{tsaptsinos2017lyrics}
-Alexandros Tsaptsinos.
-\newblock Lyrics-based music genre classification using a hierarchical
-  attention network.
-\newblock {\em arXiv preprint arXiv:1707.04678}, 2017.
 
 \bibitem{tzanetakis2002musical}
 George Tzanetakis and Perry Cook.
