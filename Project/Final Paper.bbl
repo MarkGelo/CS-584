@@ -1,4 +1,15 @@
-\begin{thebibliography}{1}\itemsep=-1pt
+\begin{thebibliography}{10}\itemsep=-1pt
+
+\bibitem{elbir2020music}
+Ahmet Elbir and Nizamettin Aydin.
+\newblock Music genre classification and music recommendation by using deep
+  learning.
+\newblock {\em Electronics Letters}, 56(12):627--629, 2020.
+
+\bibitem{liu2020bottom}
+Caifeng Liu, Lin Feng, Guochao Liu, Huibing Wang, and Shenglan Liu.
+\newblock Bottom-up broadcast neural network for music genre classification.
+\newblock {\em Multimedia Tools and Applications}, pages 1--19, 2020.
 
 \bibitem{marchand2016extended}
 Ugo Marchand and Geoffroy Peeters.
