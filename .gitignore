@@ -3,3 +3,5 @@ Slides/
 References/
 models/
 checkpoints
+Pipfile
+Pipfile.lock
